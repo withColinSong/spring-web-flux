@@ -1,6 +1,6 @@
-package com.domain.user.controller;
+package com.domain.user.user.controller;
 
-import com.domain.user.service.UserService;
+import com.domain.user.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

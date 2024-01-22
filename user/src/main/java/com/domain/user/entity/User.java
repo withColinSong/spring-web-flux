@@ -1,15 +1,17 @@
 package com.domain.user.entity;
 
-import com.domain.user.enums.STATUS;
+import com.domain.user.enums.Status;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Getter
 @NoArgsConstructor
 @Table(schema = "USER")
 @Entity
+@ToString
 public class User {
 
     @Id
@@ -20,10 +22,10 @@ public class User {
     private String phone;
 
     @Enumerated(value = EnumType.STRING)
-    private STATUS status;
+    private Status status;
 
     @Builder
-    public User(String name, String phone, STATUS status) {
+    public User(String name, String phone, Status status) {
         this.name = name;
         this.phone = phone;
         this.status = status;

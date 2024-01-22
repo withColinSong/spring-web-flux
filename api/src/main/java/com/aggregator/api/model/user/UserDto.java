@@ -1,4 +1,4 @@
-package com.aggregator.api.dto;
+package com.aggregator.api.model.user;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,9 +9,6 @@ public class UserDto {
     private Long id;
     private String name;
     private String phone;
-    private STATUS status;
+    private Status status;
 
-    public enum STATUS {
-        ACTIVE, INACTIVE
-    }
 }

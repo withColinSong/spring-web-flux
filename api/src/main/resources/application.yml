@@ -1,0 +1,8 @@
+
+server:
+  host:
+    api: http://localhost:8081
+
+  secret:
+    password: 01ASFDSA
+    key : SECRET_KEY

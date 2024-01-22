@@ -1,6 +1,6 @@
 package com.domain.user.enums;
 
-public enum STATUS {
+public enum Status {
     ACTIVE,
     INACTIVE
 }
