@@ -6,3 +6,4 @@ server:
   secret:
     password: 01ASFDSA
     key : SECRET_KEY
+
